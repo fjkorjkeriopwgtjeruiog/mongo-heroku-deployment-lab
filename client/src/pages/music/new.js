@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { createMusic } from '../../lib/fetch-music.js';
+//import { createMusic } from '../../lib/fetch-music.js';
 
 const NewMusic = () => {
   const [musicItem, setMusicItem] = useState({
@@ -15,7 +15,7 @@ const NewMusic = () => {
   const handleOnSubmit = async (event) => {
     event.preventDefault();
 
-    const { title, artist } = musicItem;
+    //const { title, artist } = musicItem;
 
     //const newMusicItem = await createMusic({ title, artist });
     // TODO: redirect to show page
