@@ -6,7 +6,6 @@ import cors from 'cors';
 import dotenv from 'dotenv';
 
 dotenv.config();
-
 // midlewares
 import httpLoggerMiddleware from './middleware/logger-middleware.js';
 import jsonResponseMiddleware from './middleware/json-response.js';
