@@ -17,7 +17,7 @@ const NewMusic = () => {
 
     const { title, artist } = musicItem;
 
-    const newMusicItem = await createMusic({ title, artist });
+    //const newMusicItem = await createMusic({ title, artist });
     // TODO: redirect to show page
   };
 
